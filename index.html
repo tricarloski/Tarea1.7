@@ -9,7 +9,17 @@
 
 <body>
     <h1>Etiquetas de contenido y texto by Carlos</h1>
-    <section>
+    <nav>
+        <ul>
+            <li><a href="#contenido">Contenido</a></li>
+            <li><a href="#listas">Listas</a></li>
+            <li><a href="#texto">Texto</a></li>
+            <li><a href="#enlaces">Enlaces</a></li>
+            <li><a href="#caracteres">Caracteres</a></li>
+        </ul>
+    </nav>
+
+    <section id="contenido">
         <h2>Contenido</h2>
         <p>Un texto inventado por mi "supongo"</p>
         <hr>
@@ -25,18 +35,19 @@ Menos mal
             Contenido agrupado en un div
         </div>
         <dl>
-            <dt>Path of exile</dt>
+            <dt>Path of Exile</dt>
             <dd>Un juegazo de los que no quedan.</dd>
 
             <dt>Término 2</dt>
             <dd>Sinceramente quería poner algo de humor negro, pero no me la juego.</dd>
         </dl>
         <figure>
-            <img src="batman.gif" alt="Imágen de Batman triste">
-            <figcaption>Imágen triste</figcaption>
+            <img src="batman.gif" alt="Imagen de Batman triste">
+            <figcaption>Imagen triste</figcaption>
         </figure>
     </section>
-    <section>
+
+    <section id="listas">
         <h2>Listas</h2>
         <ol type="A" start="3">
             <li>Pan</li>
@@ -54,7 +65,8 @@ Menos mal
             <li>Tomate</li>
         </ul>
     </section>
-    <section>
+
+    <section id="texto">
         <h2>Texto</h2>
         <p>
             Este texto tiene una palabra enfatizada <em>mira_así</em>,
@@ -78,7 +90,8 @@ Menos mal
         <p>
             El agua en química se dice H<sub>2</sub>O.
             Un ejemplo de potencia es 10<sup>2</sup>.
-            Este texto está en cursiva <i>En un cuestionario tengo un 98 en el primer intento y me da pereza hacer el
+            Este texto está en cursiva <i>En un cuestionario tengo un 98 en el primer intento y me da pereza
+                hacer el
                 100, pónmelo, ¿no?</i>,
             este en <b>negrita</b>,
             este está subrayado <u>apuntes importantes</u>
@@ -93,7 +106,8 @@ Menos mal
             PalabraMuyLargaQueEsTánLargaQueNecesitoUnwbrPara<wbr>QueElNavegadorLaCorteSiLoNecesita.
         </p>
     </section>
-    <section>
+
+    <section id="enlaces">
         <h2>Enlaces</h2>
         <p>
             No visites ni descargues nada en <a href="https://visual-studio-code.softonic.com/">Softonic</a>.
@@ -111,7 +125,8 @@ Menos mal
             <a href="archivo.txt" download>Descargar archivo "sorpresa dentro"</a>
         </p>
     </section>
-    <section>
+
+    <section id="caracteres">
         <h2>Caracteres</h2>
         <p>
             Para poner el símbolo menor que &lt; y el mayor que &gt;.
@@ -125,13 +140,7 @@ Menos mal
             Hola&nbsp;&nbsp;&nbsp;&nbsp;Adiós
         </p>
     </section>
-    <h2>Menú</h2>
 
-    <menu>
-        <li>Etiquetas</li>
-        <li>Más Etiquetas</li>
-        <li>No sé</li>
-    </menu>
 </body>
 
 </html>
